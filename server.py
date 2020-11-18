@@ -24,8 +24,8 @@ except socket.error as error:
 
 db = mysql.connector.connect(
     host="localhost",
-    user="root",
-    passwd="rootsql",
+    user="temp",
+    passwd="temp",
     database="chat"
 )
 client = []
